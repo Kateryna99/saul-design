@@ -48,17 +48,17 @@
 
         // .menu-footer__link_home
         &_home {
-            background: url('../../img/footer/menu/01.svg') left no-repeat;
+            background: url('/img/footer/menu/01.svg') left no-repeat;
         }
 
         // .menu-footer__link_about
         &_about {
-            background: url('../../img/footer/menu/02.svg') left no-repeat;
+            background: url('img/footer/menu/02.svg') left no-repeat;
         }
 
         // .menu-footer__link_contact
         &_contact {
-            background: url('../../img/footer/menu/03.svg') left no-repeat;
+            background: url('/img/footer/menu/03.svg') left no-repeat;
         }
     }
 }
