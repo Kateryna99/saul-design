@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "### Description",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "dev": "vite", 
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
