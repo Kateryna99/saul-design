@@ -1,0 +1,89 @@
+//========================= HEADER =========================//
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: rem(1) solid $white2;
+    background-color: $black2;
+    z-index: 50;
+
+    // .header__container
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: rem(15);
+        padding-top: rem(30);
+        padding-bottom: rem(30);
+    }
+
+    // .header__logo
+    &__logo {
+    }
+
+    // .header__menu
+    &__menu {
+    }
+}
+.menu {
+    // .menu__list
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: rem(40);
+        row-gap: rem(3);
+        align-items: center;
+    }
+
+    // .menu__item
+    &__item {
+    }
+
+    // .menu__link
+    &__link {
+        color: $white0;
+        transition: color 0.3s ease 0s;
+
+        &:hover {
+            color: $green0;
+        }
+    }
+}
+
+//========================= HEADER (BREAKPOINTS) =========================//
+
+// MAX
+@media (max-width: $pc) {
+}
+@media (max-width: $tablet) {
+}
+
+@media (max-width: $mobileLarge) {
+}
+
+@media (max-width: rem(500)) {
+    .header__container {
+        flex-direction: column;
+        padding-top: rem(10);
+        padding-bottom: rem(10);
+        gap: rem(10);
+    }
+    .menu__list {
+        column-gap: rem(20);
+    }
+}
+
+@media (max-width: $mobileSmall) {
+}
+
+// MIN
+@media (min-width: $pc) {
+}
+@media (min-width: $tablet) {
+}
+@media (min-width: $mobileLarge) {
+}
+@media (min-width: $mobileSmall) {
+}
